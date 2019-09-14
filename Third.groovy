@@ -9,12 +9,13 @@ freeStyleJob("Myfirst_job_SSH_folder")
             }
         }
       }
+  steps {
   dsl {
             //external('projectA.groovy', 'projectB.groovy')
             external('first.groovy')
             removeAction('DISABLE')
             ignoreExisting()
-            additionalClasspath('lib')
+            //additionalClasspath('lib')
         }
-  
+  }
 }
