@@ -1,4 +1,4 @@
-freeStyleJob("Myfirst_job_SSH")
+freeStyleJob("Myfirst_job_SSH_folder")
 {
   description('My first job_SSH')
       scm {
