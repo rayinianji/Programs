@@ -1,5 +1,8 @@
-pipelineJob('Pipelinexample') {
+pipelineJob('Pipeline example') {
     definition {
-           }
-    
+        cps {
+        
+        }
+        
+    }
 }
