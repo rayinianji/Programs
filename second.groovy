@@ -1,1 +1,4 @@
-freeStyleJob(String first_job)
+freeStyleJob("Myfirst_job")
+{
+  description('My first job')
+}
