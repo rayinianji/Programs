@@ -1,8 +1,24 @@
 node('master')
 {
+wrks = env.WORKSPACE
+
   stage ('Preparing')
    {
-    println(" preparing ")
+    println(" preparing...... ")
+	
+	  git(
+                url: "https://github.com/srikrishnaprakash/pls.git",
+                branch: "master"
+	    )
+	
+
+	 dir('config') {
+          git(
+                url: "https://github.com/srikrishnaprakash/conf.git",
+                branch: "master"
+	        )  
+        }
+        
    }
    stage ('clone')
    {
