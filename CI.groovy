@@ -7,14 +7,14 @@ wrks = env.WORKSPACE
     println(" preparing...... ")
 	
 	  git(
-                url: "https://github.com/rayinianji/Programs.git",
+                url: "https://github.com/rayinianji/pls.git",
                 branch: "master"
 	    )
 	
 
 	 dir('config') {
           git(
-                url: "https://github.com/srikrishnaprakash/conf.git",
+                url: "https://github.com/rayinianji/conf.git",
                 branch: "master"
 	        )  
         }
@@ -22,7 +22,8 @@ wrks = env.WORKSPACE
    }
    stage ('clone')
    {
-     println(" Cloning ")
+     println(" Cloning--------------- ")
+	load 'app/clne.groovy'
    }
      stage ('Build')
    {
