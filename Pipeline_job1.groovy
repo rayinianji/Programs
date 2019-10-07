@@ -2,7 +2,7 @@ import jenkins.model.*;
 folder ("$ProductName")
 {
 }
-folder("$ProductName/$Appname")
+folder("$ProductName/$AppName")
 {
 }
 pipelineJob("$ProductName/$AppName/CICD-$AppName")
