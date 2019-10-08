@@ -24,6 +24,7 @@ wrks = env.WORKSPACE
    {
      println(" Cloning--------------- ")
 	load 'cln.groovy'
+     println(" Cloning--------------- end...........")	   
    }
      stage ('Build')
    {
