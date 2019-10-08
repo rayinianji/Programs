@@ -14,7 +14,7 @@ wrks = env.WORKSPACE
 
 	 dir('config') {
           git(
-                url: "https://github.com/rayinianji/conf",
+                url: "https://github.com/srikrishnaprakash/pls.git",
                 branch: "master"
 	        )  
         }
