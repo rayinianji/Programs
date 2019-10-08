@@ -23,7 +23,7 @@ wrks = env.WORKSPACE
    stage ('clone')
    {
      println(" Cloning--------------- ")
-	//load 'app/clne.groovy'
+	load 'cln.groovy'
    }
      stage ('Build')
    {
