@@ -7,14 +7,14 @@ wrks = env.WORKSPACE
     println(" preparing...... ")
 	
 	  git(
-                url: "https://github.com/rayinianji/pls.git",
+                url: "https://github.com/rayinianji/pls",
                 branch: "master"
 	    )
 	
 
 	 dir('config') {
           git(
-                url: "https://github.com/rayinianji/conf.git",
+                url: "https://github.com/rayinianji/conf",
                 branch: "master"
 	        )  
         }
