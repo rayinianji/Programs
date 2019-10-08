@@ -7,7 +7,7 @@ wrks = env.WORKSPACE
     println(" preparing...... ")
 	
 	  git(
-                url: "https://github.com/rayinianji/pls",
+                url: "https://github.com/rayinianji/Programs.git",
                 branch: "master"
 	    )
 	
