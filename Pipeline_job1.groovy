@@ -8,8 +8,6 @@ folder("$ProductName/$AppName")
 //pipelineJob("$ProductName/$AppName/CICD-$AppName")
 jNameci="$ProductName/$AppName/CI-$AppName"
 pipelineJob (jNameci) {
-{    
-
 parameters {
         
 		stringParam('ProductName',"$ProductName", "ProductName")
