@@ -2,7 +2,7 @@ node('master')
 {
 wrks = env.WORKSPACE
 
-  stage ('Preparing'+$wrks)
+  stage ('Preparing $wrks')
    {
     println(" preparing...... ")
 	
